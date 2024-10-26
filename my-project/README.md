@@ -2,26 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
 
-## Development server
+1) собственно говоря, список пользователей, есть поиск по имени, можно по ним клацнуть для доп инфы, и есть кнопка выгнать, тот человек тогда удалится.
+![image](https://github.com/user-attachments/assets/a6c03eb6-02a1-41ae-9ee5-4d26c56d865f)
+![image](https://github.com/user-attachments/assets/584d2090-d9c6-424a-b70b-ee1d902edcde)
+![image](https://github.com/user-attachments/assets/aa40fffc-bffd-456f-af7c-710a331187fb)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+2) можно добавить пользователя, всё
+![image](https://github.com/user-attachments/assets/dfbd91fc-1037-4049-89ad-53a4a3268e14)
+![image](https://github.com/user-attachments/assets/76c6eca6-50fe-4747-a6aa-e42785087708)
