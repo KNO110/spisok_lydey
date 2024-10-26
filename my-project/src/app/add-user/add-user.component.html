@@ -1,0 +1,27 @@
+<h2 class="title">Добавить пользователя</h2>
+<form (ngSubmit)="addUser()" class="add-user-form">
+  <label>
+    Имя:
+    <input [(ngModel)]="newUser.name" name="name" required class="form-input" />
+  </label>
+  <label>
+    Email:
+    <input
+      [(ngModel)]="newUser.email"
+      name="email"
+      required
+      class="form-input"
+    />
+  </label>
+  <label>
+    Возраст:
+    <input
+      [(ngModel)]="newUser.age"
+      name="age"
+      type="number"
+      required
+      class="form-input"
+    />
+  </label>
+  <button type="submit" class="submit-button">Добавить</button>
+</form>

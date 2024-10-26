@@ -1,0 +1,27 @@
+<h2 class="title">Список пользователей</h2>
+<div class="search-container">
+  <input
+    type="text"
+    [(ngModel)]="searchText"
+    placeholder="Поиск по имени..."
+    class="search-input"
+  />
+</div>
+<ul class="user-list" #userList>
+  <li
+    class="user-item"
+    *ngFor="let user of users | userFilter: searchText"
+    (click)="onSelectUser(user.id)"
+  >
+    <div class="user-info">
+      <h3>{{ user.name }}</h3>
+      <p>{{ user.email }}</p>
+    </div>
+  </li>
+</ul>
+
+<!-- детали челов -->
+<app-user-detail
+  [(userId)]="selectedUserId"
+  (userDeleted)="onUserDeleted($event)"
+></app-user-detail>

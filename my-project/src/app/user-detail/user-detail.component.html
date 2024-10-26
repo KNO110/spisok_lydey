@@ -1,0 +1,12 @@
+<div *ngIf="user" class="user-detail">
+    <h2 class="detail-title">Детали пользователя</h2>
+    <div class="user-info">
+      <p><strong>Имя:</strong> {{ user.name }}</p>
+      <p><strong>Email:</strong> {{ user.email }}</p>
+      <p><strong>Возраст:</strong> {{ user.age }}</p>
+    </div>
+
+    <!-- если надо удалить типа -->
+    <button class="delete-button" (click)="deleteUser()">выгнать с пати</button>
+  </div>
+  
